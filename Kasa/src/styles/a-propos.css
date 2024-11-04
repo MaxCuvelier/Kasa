@@ -1,0 +1,24 @@
+.banderole2 {
+        background-image: url("../assets/Image2.png");
+        background-position: center;
+        background-size: cover;
+        width: 86%;
+        height: 223px;
+        border-radius: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+}
+
+.collapse {
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .collapse {
+        width: 85%;
+    }
+}

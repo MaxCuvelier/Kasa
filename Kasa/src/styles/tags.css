@@ -1,0 +1,22 @@
+.tags {
+    background-color: rgba(255, 96, 96, 1);
+    color: white;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 14px;
+    line-height: 19.96px;
+    align-items: center;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .tags {
+        font-size: 10px;
+        line-height: 14.26px;
+    }
+}

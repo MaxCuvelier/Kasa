@@ -12,6 +12,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../Data/Montserrat-Regular.ttf') format('ttf'),
+       url('../Data/Montserrat-Regular.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+} */
 
 a {
   font-weight: 500;
