@@ -5,13 +5,13 @@ export default function Banderole({ banderoleType }) {
     function typeBanderole() {
         if(banderoleType === 1) {
             return (
-                <div className="banderole">
+                <div className="banderole banderole1">
                         <h1 className="banderole-title">Chez vous, partout et ailleurs</h1>
                 </div>
                 )
         } else {
             return (
-                <div className="banderole2"></div>
+                <div className="banderole banderole2"></div>
             )
         }
     }

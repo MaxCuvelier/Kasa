@@ -1,9 +1,13 @@
 .banderole {
-    font-size: 48px;
     width: 100%;
     background-image: url("../assets/Image1.png");
     background-position: center;
     background-size: cover;
+}
+
+.banderole1 {
+    font-size: 48px;
+    background-image: url("../assets/Image1.png");
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,6 +56,10 @@
         font-size: 24px;
         line-height: 24px;
         margin-left: 20px;
-        padding-right: 65px;
+        padding-right: 85px;
+    }
+
+    .banderole {
+        height: 111px;
     }
 }

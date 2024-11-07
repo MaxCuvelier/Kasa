@@ -1,7 +1,7 @@
 .container-appart {
     width: 85%;
     margin-top: 60px;
-    margin-bottom: 90px;
+    margin-bottom: 25px;
 }
 
 .Description {
@@ -24,6 +24,7 @@
 }
 
 .sous-titre {
+    color: black;
     font-size: 18px;
     font-weight: 500;
     line-height: 25.67px;
@@ -76,6 +77,10 @@
 }
 
 @media (max-width: 768px) {
+    .container-appart {
+        width: 90%;
+    }
+
     .Description {
         width: 100%;
         flex-direction: column;

@@ -35,6 +35,7 @@
 @media (max-width: 768px) {
     .carroussel {
         max-height: 255px;
+        border-radius: 10px;
     }
 
     .picture {

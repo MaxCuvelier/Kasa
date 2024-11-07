@@ -16,7 +16,7 @@ function typeCollapse() {
                 <div className={isActive ? 'paragraphe-collapse base-paragraphe' : 'display-none base-paragraphe'}>
                     <ul className="listecollapse">
                         {list.map((liste, index) =>
-                        <li key={`${liste}-${index}`}>{liste}</li>
+                        <li className='text-list-collapse' key={`${liste}-${index}`}>{liste}</li>
                     )}
                     </ul>
                 </div>

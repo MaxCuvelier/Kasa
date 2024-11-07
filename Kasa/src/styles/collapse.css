@@ -71,3 +71,15 @@
 li {
     list-style-type: none;
 }
+
+.text-list-collapse {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .en-tête-collapse {
+        height: 30px;
+        font-size: 13px;
+        line-height: 18.54px;
+    }
+}
