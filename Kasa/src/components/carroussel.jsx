@@ -22,13 +22,32 @@ export default function Carroussel({pictures}) {
         }
     }
 
-    return (
-        <>
+    function difCarroussel() {
+        if (pictures.length < 2) {
+            return (
+                <>
+                <div className="carroussel">
+                    <img src={pictures[currentIndex]} className="picture"/>
+                </div>
+                </>
+            )
+        } else {
+            return (
+                <>
         <div className="carroussel">
             <img src={pictures[currentIndex]} className="picture"/>
             <img src={arrowLeft} className="arrow arrow_left" alt="" onClick={handleClickDown}></img>
 		    <img src={arrowRight} className="arrow arrow_right" alt="" onClick={handleClickUp}></img>
+            <p className="compteur-image">{currentIndex+1}/{pictures.length}</p>
         </div>
         </>
+            )
+        }
+    }
+
+    return (
+        <div>
+            {difCarroussel()}
+        </div>
     )
 }

@@ -6,9 +6,12 @@ import "../styles/root.css"
 import "../assets/image1.png"
 import Card from "../components/card.jsx"
 import Data from "../../Data/Data.json"
+import Banderole from "../components/banderole.jsx"
 
 
-
+{/* <div className="banderole">
+            <h1 className="banderole-title">Chez vous, partout et ailleurs</h1>
+          </div> */}
 
 
 
@@ -19,8 +22,8 @@ export default function Root() {
       <>
        <Banner />
         <div className="container">
-          <div className="banderole">
-            <h1 className="banderole-title">Chez vous, partout et ailleurs</h1>
+          <div className="banderole-1">
+            <Banderole banderoleType={1} />
           </div>
           <div className="list-card">
           {Data.map((item) => (

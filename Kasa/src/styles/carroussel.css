@@ -19,11 +19,17 @@
 
 .carroussel {
     display: flex;
-    justify-content: center;
     align-items: center;
     max-height: 415px;
     contain: content;
     border-radius: 25px;
+}
+
+.compteur-image {
+    color: white;
+    position: absolute;
+    right: 50%;
+    bottom: 0;
 }
 
 @media (max-width: 768px) {

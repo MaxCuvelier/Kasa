@@ -7,32 +7,20 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.banderole {
-    font-size: 48px;
-    background-image: url("../assets/Image1.png");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
-    background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.6); 
+body {
+    background-color: white;
 }
 
-.banderole-title {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 68.45px;
-    color: white;
-    text-shadow: 2px 2px 2px #000000;
+.banderole-1 {
+    width: 86%;
+    display: flex;
 }
+
 
 .banderole{
     width: 86%;
     height: 223px;
     border-radius: 25px;
-    z-index: -1;
 }
 
 .list-card {
@@ -73,21 +61,7 @@
     .container {
         margin-bottom: 25px;
     }
-
-    .banderole, .banderole-black {
-        width: 89%;
-    }
-
-    .banderole {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    .banderole-title {
-        font-size: 24px;
-        line-height: 24px;
-        margin-left: 20px;
-    }
+    .banderole-1 {
+        width: 89%;  
+    } 
 }

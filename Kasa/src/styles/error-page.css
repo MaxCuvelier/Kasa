@@ -72,6 +72,7 @@
     .error-banner {
         position: absolute;
         top: 0px;
-        width: 100%;
+        width: 96%;
+        padding-left: 0px;
     }
 }

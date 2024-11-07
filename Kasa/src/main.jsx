@@ -5,10 +5,10 @@ import {
   RouterProvider
 } from "react-router-dom"
 import './index.css'
-import Root from "./routes/index.jsx"
-import ErrorPage from "./error-page.jsx"
-import APropos from "./routes/a-propos.jsx"
-import Logement from "./routes/page-appartement.jsx"
+import Root from "./pages/index.jsx"
+import ErrorPage from "./pages/error-page.jsx"
+import APropos from "./pages/a-propos.jsx"
+import Logement from "./pages/page-appartement.jsx"
 
 
 
@@ -26,6 +26,7 @@ const router = createBrowserRouter([
   {
     path: "page-appartement/:id",
     element: <Logement />,
+    errorElement: <ErrorPage />,
   }
 ])
 

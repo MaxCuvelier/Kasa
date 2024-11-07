@@ -1,12 +1,5 @@
-.banderole2 {
-        background-image: url("../assets/Image2.png");
-        background-position: center;
-        background-size: cover;
-        width: 86%;
-        height: 223px;
-        border-radius: 25px;
-        margin-top: 20px;
-        margin-bottom: 30px;
+.banderole-2 {
+    width: 86%;
 }
 
 .collapse {
