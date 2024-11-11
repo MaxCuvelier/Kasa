@@ -6,6 +6,8 @@
 }
 
 .banderole1 {
+    display: flex;
+    gap: 15px;
     font-size: 48px;
     background-image: url("../assets/Image1.png");
     display: flex;
@@ -40,6 +42,21 @@
     margin-bottom: 30px;
 }
 
+@media (max-width: 867px) {
+    .banderole1 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .banderole-title {
+        margin: 0;
+        padding-left: 15px;
+    }
+}
+
 @media (max-width: 768px) {
     .banderole {
         width: 100%;
@@ -52,11 +69,20 @@
         justify-content: flex-start;
     }
 
+    .banderole1 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
     .banderole-title {
         font-size: 24px;
         line-height: 24px;
         margin-left: 20px;
-        padding-right: 85px;
+        margin: 0;
+        padding-left: 15px;
     }
 
     .banderole {

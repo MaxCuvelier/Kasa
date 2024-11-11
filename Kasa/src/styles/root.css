@@ -9,6 +9,8 @@
 
 body {
     background-color: white;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .banderole-1 {

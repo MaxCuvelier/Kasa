@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 768px) {
+    #error-page {
+        margin-top: 50px;
+    }
+
     .titre-error {
         font-size: 96px;
         line-height: 136.9px;
@@ -70,8 +74,6 @@
     }
 
     .error-banner {
-        position: absolute;
-        top: 0px;
         width: 96%;
         padding-left: 0px;
     }

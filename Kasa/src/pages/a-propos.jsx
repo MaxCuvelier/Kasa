@@ -15,7 +15,9 @@ export default function APropos () {
    
     return (
         <>
+            {/* <div className="propos-header"> */}
             <Banner />
+            {/* </div> */}
             <div className="banderole-2">
                 <Banderole />
             </div>
@@ -24,7 +26,9 @@ export default function APropos () {
                     <Collapse key={item.id} title={item.title} paragraphe={item.paragraphe} />
                 ))}
             </div>
+            {/* <div className="propos-footer"> */}
             <Footer />
+            {/* </div> */}
         </>
     );
 }
