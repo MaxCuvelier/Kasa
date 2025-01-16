@@ -20,7 +20,7 @@ export default function Root() {
 
     return (
       <>
-       <Banner />
+       <Banner actifLink={1} />
         <div className="container">
           <div className="banderole-1">
             <Banderole banderoleType={1} />

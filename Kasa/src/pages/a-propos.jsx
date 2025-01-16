@@ -16,7 +16,7 @@ export default function APropos () {
     return (
         <>
             {/* <div className="propos-header"> */}
-            <Banner />
+            <Banner actifLink={2}/>
             {/* </div> */}
             <div className="banderole-2">
                 <Banderole />

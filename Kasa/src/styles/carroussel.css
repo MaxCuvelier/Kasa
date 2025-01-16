@@ -1,6 +1,6 @@
 .arrow {
-    width: 80px;
-    height: 80px;
+    width: 96px;
+    height: 119px;
     position: absolute;
 }
 
@@ -33,6 +33,11 @@
 }
 
 @media (max-width: 768px) {
+    .arrow {
+        width: 24px;
+        height: 24px;
+    }
+
     .carroussel {
         max-height: 255px;
         border-radius: 10px;
